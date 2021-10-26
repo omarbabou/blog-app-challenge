@@ -1,0 +1,122 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins" sans-serif;
+}
+
+body {
+  background-color: white;
+  width: 100vw;
+  height: 80vh;
+  margin: 89px auto;
+  font-family: Arial, Helvetica, sans-serif;
+  overflow-x: hidden;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 40px;
+}
+
+.content .nav-menu {
+  display: flex;
+  padding: 15px 50px;
+  margin-top: -75px;
+}
+
+.content .nav-menu .ul-list li {
+  color: lightgray;
+  font-size: 1.2rem;
+  font-family: "Poppins" sans-serif;
+}
+
+.content .nav-menu .ul-list li:hover {
+  color: lightsteelblue;
+}
+
+.content .nav-menu .ul-list ul {
+  list-style: none;
+  margin-right: 2rem;
+}
+
+.content .logo {
+  margin-top: -75px;
+  background: rgba(238, 59, 118, 0.931);
+  color: white;
+  width: 35px;
+  text-align: center;
+  height: 35px;
+  border-radius: 50%;
+  font-size: 12px;
+  font-weight: 200;
+  object-fit: cover;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.content .logo a {
+  text-decoration: none;
+  color: white;
+}
+
+.blog-data {
+  margin-left: 6rem;
+  margin-top: 4rem;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.info-1 {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 3rem;
+}
+
+.info-1 img {
+  width: 80vw;
+  height: 30vw;
+  object-fit: cover;
+  border-radius: 10px;
+  flex-wrap: wrap;
+  margin-right: 24rem;
+}
+
+.blog-text {
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  margin-right: -20rem;
+  margin-top: 0rem;
+  width: 80%;
+}
+
+.blog-text span {
+  color: #333;
+  font-size: 1.7rem;
+  margin-bottom: 0.9rem;
+}
+
+.blog-text .blog-title {
+  text-decoration: none;
+  font-size: 2.45rem;
+  color: #333;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.blog-text p {
+  font-size: 1.2rem;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin-bottom: 1rem;
+  color: lightslategray;
+}
