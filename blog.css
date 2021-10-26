@@ -28,7 +28,7 @@ body {
 }
 
 .content .nav-menu .ul-list li {
-  color: lightgray;
+  color: #d3d3d3;
   font-size: 1.2rem;
   font-family: "Poppins" sans-serif;
   cursor: pointer;
@@ -91,14 +91,14 @@ body {
   margin-top: 0rem;
 }
 .about-date {
-  color: lightslategray;
+  color: #d3d3d3;
   font-size: 1.1rem;
   margin-bottom: 0.9rem;
   margin: 10px;
 }
 
 .about p {
-  color: rgb(93, 96, 99);
+  color: #d3d3d3;
   font-family: Georgia, "Times New Roman", Times, serif;
   margin: 10px;
 }
@@ -154,7 +154,7 @@ img {
 }
 
 .blog-text span {
-  color: lightslategray;
+  color: #d3d3d3;
   font-size: 1.1rem;
   margin-bottom: 0.9rem;
 }
@@ -175,7 +175,7 @@ img {
   overflow: hidden;
   text-overflow: ellipsis;
   margin-bottom: 1rem;
-  color: lightslategray;
+  color: #d3d3d3;
 }
 
 .blog-text .btn {
