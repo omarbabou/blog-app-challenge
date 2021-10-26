@@ -6,7 +6,7 @@ async function getBlogApp() {
   blogAppElement.innerHTML = "";
   const response = await fetch(API_URL);
   const json = await response.json();
-  const bigPosts = json.filter((post) => post.id % 4 == 0);
+  const bigPosts = json.filter((post) => post.id % 5 == 0);
 
   bigPosts.forEach((post) => {
     blogAppElement.innerHTML += `
